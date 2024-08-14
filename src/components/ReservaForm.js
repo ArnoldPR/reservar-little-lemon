@@ -25,7 +25,7 @@ const ReservaForm = (props) => {
             <section id='rev'>
                 <form onSubmit={handleSubmit}>
                 <p>Diligencia el Formulario para Reservar.</p><br/>
-                    <fieldset>
+                    <fieldset className='p-5' >
                         <div>
                         <label for="book-name">Nombre:</label>
                         <input id='book-name' min='nombre y apellidos' value={name} onChange={(e) => setName(e.target.value)}/>

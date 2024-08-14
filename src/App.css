@@ -76,7 +76,6 @@ nav ul li a:hover{
   list-style: none;
   display: flex;
   align-items: center;
-  box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.6);
   transform: translateY(-4%);
 }
 
@@ -229,7 +228,6 @@ input, label{
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
-  box-shadow: 8px 8px 30px rgba(0, 0, 0, 0.6);
   transform: translateY(-4%);
 }
 
@@ -274,12 +272,15 @@ footer section{
 }
 
 .company-info img{
+  margin: auto;
   margin-top: 12px;
   cursor: pointer;
   width: 100px;
 }
 
+
 .company-info p{
+  text-align: center;
   width: 320px;
 }
 
